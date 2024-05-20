@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6cK-Ih-0od">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Item Title-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StyleGuide_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Allinson_header_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="AiR-eI-2ql">
+                                <rect key="frame" x="0.0" y="-1" width="393" height="6"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="6" id="1gk-cp-wy3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Sans example" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rzr-xo-yfE">
+                                <rect key="frame" x="16" y="44" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chalkduster example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6E-73-5Ip">
+                                <rect key="frame" x="16" y="87" width="361" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fk3-qd-bqL" userLabel="Color example - dark red">
+                                <rect key="frame" x="16" y="151.33333333333334" width="361" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Allinson_red__darkend"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W6K-0X-gTW" userLabel="Color example - orange">
+                                <rect key="frame" x="16" y="187.66666666666669" width="361" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Allinson_orange"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VP5-T5-gqJ" userLabel="footer">
+                                <rect key="frame" x="0.0" y="665" width="393" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color example" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psC-EE-nAG" userLabel="Color example - link blue">
+                                        <rect key="frame" x="16" y="12" width="361" height="26"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" name="Allinson_copy_brown"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="Allinson_footer_green"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="psC-EE-nAG" secondAttribute="bottom" constant="12" id="1Ne-M7-b2F"/>
+                                    <constraint firstAttribute="trailing" secondItem="psC-EE-nAG" secondAttribute="trailing" constant="16" id="NXz-2r-BnB"/>
+                                    <constraint firstItem="psC-EE-nAG" firstAttribute="leading" secondItem="VP5-T5-gqJ" secondAttribute="leading" constant="16" id="jVP-oL-JqC"/>
+                                    <constraint firstAttribute="height" constant="50" id="mf7-5R-STA"/>
+                                    <constraint firstItem="psC-EE-nAG" firstAttribute="top" secondItem="VP5-T5-gqJ" secondAttribute="top" constant="12" id="w3A-2M-ZRj"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1R-bD-THB" userLabel="footer mask">
+                                <rect key="frame" x="0.0" y="715" width="393" height="34"/>
+                                <color key="backgroundColor" name="Allinson_footer_green__darkened"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAB-50-nFU" userLabel="Color example - link blue">
+                                <rect key="frame" x="16" y="224" width="361" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="Allinson_link_blue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKe-mn-w0K" userLabel="Open Objc Modal">
+                                <rect key="frame" x="118.33333333333333" y="586" width="156.66666666666669" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open Objc Modal"/>
+                                <connections>
+                                    <segue destination="gm3-2g-kWN" kind="presentation" id="nLS-ja-r4I"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Allinson_logo" translatesAutoresizingMaskIntoConstraints="NO" id="wDC-5R-g4x">
+                                <rect key="frame" x="16" y="288.33333333333331" width="237" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="237" id="1nZ-sG-hCj"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="2kH-Xy-nT8"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="237" id="gvF-S8-y9o"/>
+                                    <constraint firstAttribute="height" constant="33" id="heu-Ft-6l8"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="Allinson_body_brown"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T6E-73-5Ip" secondAttribute="trailing" constant="16" id="0Rz-wR-fSH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fk3-qd-bqL" secondAttribute="trailing" constant="16" id="0ka-sw-OzQ"/>
+                            <constraint firstItem="AiR-eI-2ql" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="-1" id="12n-ta-K5d"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VP5-T5-gqJ" secondAttribute="bottom" id="3WP-Dh-2Ws"/>
+                            <constraint firstItem="Fk3-qd-bqL" firstAttribute="top" secondItem="T6E-73-5Ip" secondAttribute="bottom" constant="44" id="4o8-0h-0wC"/>
+                            <constraint firstItem="AiR-eI-2ql" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8HM-zt-tlZ"/>
+                            <constraint firstAttribute="trailing" secondItem="E1R-bD-THB" secondAttribute="trailing" id="93h-6X-4n5"/>
+                            <constraint firstItem="VP5-T5-gqJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="961-D4-PU9"/>
+                            <constraint firstItem="VP5-T5-gqJ" firstAttribute="top" secondItem="HKe-mn-w0K" secondAttribute="bottom" constant="44" id="9nR-p8-e8t"/>
+                            <constraint firstItem="T6E-73-5Ip" firstAttribute="top" secondItem="Rzr-xo-yfE" secondAttribute="bottom" constant="22" id="Aez-3j-CN4"/>
+                            <constraint firstItem="E1R-bD-THB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DC4-Vo-ORy"/>
+                            <constraint firstItem="Fk3-qd-bqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fd7-in-R0F"/>
+                            <constraint firstItem="T6E-73-5Ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OXL-jZ-jbK"/>
+                            <constraint firstItem="VP5-T5-gqJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W0o-zy-yAS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BAB-50-nFU" secondAttribute="trailing" constant="16" id="ZO3-Sy-eID"/>
+                            <constraint firstItem="BAB-50-nFU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="apX-kt-Q1v"/>
+                            <constraint firstItem="wDC-5R-g4x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="atD-EJ-Qin"/>
+                            <constraint firstItem="BAB-50-nFU" firstAttribute="top" secondItem="W6K-0X-gTW" secondAttribute="bottom" constant="16" id="b5c-p8-Beq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W6K-0X-gTW" secondAttribute="trailing" constant="16" id="d8z-dR-PKA"/>
+                            <constraint firstItem="W6K-0X-gTW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dkF-pE-1bZ"/>
+                            <constraint firstItem="W6K-0X-gTW" firstAttribute="top" secondItem="Fk3-qd-bqL" secondAttribute="bottom" constant="16" id="hSf-tn-OzM"/>
+                            <constraint firstItem="HKe-mn-w0K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hxt-jl-68Y"/>
+                            <constraint firstItem="Rzr-xo-yfE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lKd-g9-WMY"/>
+                            <constraint firstAttribute="trailing" secondItem="AiR-eI-2ql" secondAttribute="trailing" id="mIp-26-kBS"/>
+                            <constraint firstItem="E1R-bD-THB" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="peL-F5-yzx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rzr-xo-yfE" secondAttribute="trailing" constant="16" id="ri0-p7-vVc"/>
+                            <constraint firstItem="E1R-bD-THB" firstAttribute="top" secondItem="VP5-T5-gqJ" secondAttribute="bottom" id="uTg-Nb-Lp4"/>
+                            <constraint firstItem="wDC-5R-g4x" firstAttribute="top" secondItem="BAB-50-nFU" secondAttribute="bottom" constant="44" id="v4y-sQ-5BO"/>
+                            <constraint firstItem="Rzr-xo-yfE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="y5o-8N-RG8"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Navigation Item Title" id="lxO-LU-Wt9"/>
+                    <connections>
+                        <outlet property="chalkdusterLabel" destination="T6E-73-5Ip" id="j5A-Z9-JEf"/>
+                        <outlet property="openSansLabel" destination="Rzr-xo-yfE" id="d64-H8-P4d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="89.312977099236633" y="-2.1126760563380285"/>
+        </scene>
+        <!--Objc View Controller-->
+        <scene sceneID="5Jb-6o-hQ7">
+            <objects>
+                <viewController id="gm3-2g-kWN" customClass="ObjcViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fbx-WX-rBX">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open Sans example" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8D-JD-gkX" userLabel="Open Sans Example">
+                                <rect key="frame" x="16" y="44" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color example" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccZ-H1-LkJ">
+                                <rect key="frame" x="16" y="152" width="361" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chalkduster example" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYj-ea-bP9">
+                                <rect key="frame" x="16" y="87" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="K23-r4-9p0"/>
+                        <color key="backgroundColor" name="Allinson_body_brown"/>
+                        <constraints>
+                            <constraint firstItem="mYj-ea-bP9" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="IYv-CI-mhG"/>
+                            <constraint firstItem="J8D-JD-gkX" firstAttribute="top" secondItem="K23-r4-9p0" secondAttribute="top" constant="44" id="JsJ-Jp-E2K"/>
+                            <constraint firstItem="mYj-ea-bP9" firstAttribute="top" secondItem="J8D-JD-gkX" secondAttribute="bottom" constant="22" id="MeQ-RU-WHW"/>
+                            <constraint firstItem="ccZ-H1-LkJ" firstAttribute="top" secondItem="mYj-ea-bP9" secondAttribute="bottom" constant="44" id="RtF-mk-fOR"/>
+                            <constraint firstItem="ccZ-H1-LkJ" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="Spo-77-pp6"/>
+                            <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="ccZ-H1-LkJ" secondAttribute="trailing" constant="16" id="TDh-a3-dcd"/>
+                            <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="mYj-ea-bP9" secondAttribute="trailing" constant="16" id="Vwq-qd-KoB"/>
+                            <constraint firstItem="J8D-JD-gkX" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="YQv-Ry-s5D"/>
+                            <constraint firstItem="ccZ-H1-LkJ" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="q8e-lo-6gp"/>
+                            <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="ccZ-H1-LkJ" secondAttribute="trailing" constant="16" id="wKT-He-knA"/>
+                            <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="J8D-JD-gkX" secondAttribute="trailing" constant="16" id="ywx-VI-mR4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chalkdusterExample" destination="mYj-ea-bP9" id="tL0-KW-Q7u"/>
+                        <outlet property="colorExample" destination="ccZ-H1-LkJ" id="X7F-Lk-sxs"/>
+                        <outlet property="openSansExample" destination="J8D-JD-gkX" id="Omk-jj-i9N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cbU-zX-9VO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="880" y="-2"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3zD-Aw-Sy8">
+            <objects>
+                <navigationController id="6cK-Ih-0od" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="biT-29-Y1d">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FPV-yF-0Ml"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Nj-Jr-yD8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="-2"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Allinson_header_shadow" width="1" height="6"/>
+        <image name="Allinson_logo" width="237" height="33"/>
+        <namedColor name="Allinson_body_brown">
+            <color red="0.87058823529411766" green="0.82352941176470584" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_copy_brown">
+            <color red="0.19607843137254902" green="0.16862745098039217" blue="0.11764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_footer_green">
+            <color red="0.71764705882352942" green="0.77647058823529413" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_footer_green__darkened">
+            <color red="0.5725490196078431" green="0.61960784313725492" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_link_blue">
+            <color red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_orange">
+            <color red="0.80000000000000004" green="0.40000000000000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_red__darkend">
+            <color red="0.47843137254901963" green="0.12941176470588237" blue="0.12941176470588237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

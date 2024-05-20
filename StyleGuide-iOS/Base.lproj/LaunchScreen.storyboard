@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nAP-sh-A7D" userLabel="footer">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <color key="backgroundColor" name="Allinson_footer_green"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="yez-I2-4be"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Vk-Ma-hpO" userLabel="footer mask">
+                                <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                                <color key="backgroundColor" name="Allinson_footer_green"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EwC-b9-2hr"/>
+                        <color key="backgroundColor" name="Allinson_body_brown"/>
+                        <constraints>
+                            <constraint firstItem="EwC-b9-2hr" firstAttribute="trailing" secondItem="nAP-sh-A7D" secondAttribute="trailing" id="Jbi-JB-ppw"/>
+                            <constraint firstItem="nAP-sh-A7D" firstAttribute="leading" secondItem="EwC-b9-2hr" secondAttribute="leading" id="Kkm-Rl-TCb"/>
+                            <constraint firstItem="3Vk-Ma-hpO" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="O0f-TT-FHF"/>
+                            <constraint firstItem="3Vk-Ma-hpO" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="aDm-0U-ZFt"/>
+                            <constraint firstItem="EwC-b9-2hr" firstAttribute="bottom" secondItem="nAP-sh-A7D" secondAttribute="bottom" id="deH-Pc-ryG"/>
+                            <constraint firstItem="EwC-b9-2hr" firstAttribute="bottom" secondItem="3Vk-Ma-hpO" secondAttribute="top" id="h9B-34-I5t"/>
+                            <constraint firstAttribute="trailing" secondItem="3Vk-Ma-hpO" secondAttribute="trailing" id="wR5-Yu-9Jh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="182.15892053973016"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="Allinson_body_brown">
+            <color red="0.87058823529411766" green="0.82352941176470584" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Allinson_footer_green">
+            <color red="0.71764705882352942" green="0.77647058823529413" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

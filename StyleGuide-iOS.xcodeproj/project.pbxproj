@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5695F76D2BF67E5900BA3D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */; };
+		5695F76F2BF67E5900BA3D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */; };
+		5695F7712BF67E5900BA3D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F7702BF67E5900BA3D64 /* ViewController.swift */; };
+		5695F7742BF67E5900BA3D64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5695F7732BF67E5900BA3D64 /* Base */; };
+		5695F7762BF67E5B00BA3D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5695F7752BF67E5B00BA3D64 /* Assets.xcassets */; };
+		5695F7842BF67E5B00BA3D64 /* StyleGuide_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F7832BF67E5B00BA3D64 /* StyleGuide_iOSTests.swift */; };
+		5695F78E2BF67E5B00BA3D64 /* StyleGuide_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F78D2BF67E5B00BA3D64 /* StyleGuide_iOSUITests.swift */; };
+		5695F7902BF67E5B00BA3D64 /* StyleGuide_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F78F2BF67E5B00BA3D64 /* StyleGuide_iOSUITestsLaunchTests.swift */; };
+		56E2A36C2BFAA36300D07139 /* Allinson-StyleGuide-Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A36B2BFAA36300D07139 /* Allinson-StyleGuide-Colors.xcassets */; };
+		56E2A36E2BFAA36B00D07139 /* UIColor+Allinson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E2A36D2BFAA36B00D07139 /* UIColor+Allinson.swift */; };
+		56E2A37E2BFAA40200D07139 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A36F2BFAA40200D07139 /* LICENSE.txt */; };
+		56E2A37F2BFAA40200D07139 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3702BFAA40200D07139 /* OpenSans-Bold.ttf */; };
+		56E2A3802BFAA40200D07139 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3712BFAA40200D07139 /* OpenSans-BoldItalic.ttf */; };
+		56E2A3812BFAA40200D07139 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3722BFAA40200D07139 /* OpenSans-ExtraBold.ttf */; };
+		56E2A3822BFAA40200D07139 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3732BFAA40200D07139 /* OpenSans-ExtraBoldItalic.ttf */; };
+		56E2A3832BFAA40200D07139 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3742BFAA40200D07139 /* OpenSans-Italic.ttf */; };
+		56E2A3842BFAA40200D07139 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3752BFAA40200D07139 /* OpenSans-Light.ttf */; };
+		56E2A3852BFAA40200D07139 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3762BFAA40200D07139 /* OpenSans-LightItalic.ttf */; };
+		56E2A3862BFAA40200D07139 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3772BFAA40200D07139 /* OpenSans-Regular.ttf */; };
+		56E2A3872BFAA40200D07139 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3782BFAA40200D07139 /* OpenSans-Semibold.ttf */; };
+		56E2A3882BFAA40200D07139 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3792BFAA40200D07139 /* OpenSans-SemiboldItalic.ttf */; };
+		56E2A38A2BFAA40200D07139 /* UIFont+Allinson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E2A37C2BFAA40200D07139 /* UIFont+Allinson.swift */; };
+		56E2A39E2BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3952BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets */; };
+		56E2A3A12BFAA84E00D07139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A39F2BFAA84E00D07139 /* LaunchScreen.storyboard */; };
+		56E2A3A52BFBC9C000D07139 /* ObjcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2A3A42BFBC9C000D07139 /* ObjcViewController.m */; };
+		56E2A3A82BFBD07C00D07139 /* UIColor+Allinson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2A3A72BFBD07C00D07139 /* UIColor+Allinson.m */; };
+		56E2A3AB2BFBD7EF00D07139 /* UIFont+Allinson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E2A3AA2BFBD7EF00D07139 /* UIFont+Allinson.m */; };
+		56E2A3AF2BFBE6E200D07139 /* README (Fonts).md in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3AE2BFBE6E200D07139 /* README (Fonts).md */; };
+		56E2A3B12BFBE7B100D07139 /* README (Colors).md in Resources */ = {isa = PBXBuildFile; fileRef = 56E2A3B02BFBE7B100D07139 /* README (Colors).md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5695F7802BF67E5B00BA3D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5695F7612BF67E5900BA3D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5695F7682BF67E5900BA3D64;
+			remoteInfo = "StyleGuide-iOS";
+		};
+		5695F78A2BF67E5B00BA3D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5695F7612BF67E5900BA3D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5695F7682BF67E5900BA3D64;
+			remoteInfo = "StyleGuide-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5695F7692BF67E5900BA3D64 /* StyleGuide-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StyleGuide-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5695F7702BF67E5900BA3D64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5695F7732BF67E5900BA3D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5695F7752BF67E5B00BA3D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5695F77A2BF67E5B00BA3D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5695F77F2BF67E5B00BA3D64 /* StyleGuide-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StyleGuide-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5695F7832BF67E5B00BA3D64 /* StyleGuide_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide_iOSTests.swift; sourceTree = "<group>"; };
+		5695F7892BF67E5B00BA3D64 /* StyleGuide-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StyleGuide-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5695F78D2BF67E5B00BA3D64 /* StyleGuide_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide_iOSUITests.swift; sourceTree = "<group>"; };
+		5695F78F2BF67E5B00BA3D64 /* StyleGuide_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		56E2A36B2BFAA36300D07139 /* Allinson-StyleGuide-Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Allinson-StyleGuide-Colors.xcassets"; sourceTree = "<group>"; };
+		56E2A36D2BFAA36B00D07139 /* UIColor+Allinson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Allinson.swift"; sourceTree = "<group>"; };
+		56E2A36F2BFAA40200D07139 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		56E2A3702BFAA40200D07139 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		56E2A3712BFAA40200D07139 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		56E2A3722BFAA40200D07139 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		56E2A3732BFAA40200D07139 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		56E2A3742BFAA40200D07139 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		56E2A3752BFAA40200D07139 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		56E2A3762BFAA40200D07139 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		56E2A3772BFAA40200D07139 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		56E2A3782BFAA40200D07139 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		56E2A3792BFAA40200D07139 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		56E2A37C2BFAA40200D07139 /* UIFont+Allinson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Allinson.swift"; sourceTree = "<group>"; };
+		56E2A3952BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Allinson-StyleGuide-Images.xcassets"; sourceTree = "<group>"; };
+		56E2A3A02BFAA84E00D07139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56E2A3A22BFBC9C000D07139 /* StyleGuide-iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StyleGuide-iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		56E2A3A32BFBC9C000D07139 /* ObjcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcViewController.h; sourceTree = "<group>"; };
+		56E2A3A42BFBC9C000D07139 /* ObjcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcViewController.m; sourceTree = "<group>"; };
+		56E2A3A62BFBD07C00D07139 /* UIColor+Allinson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Allinson.h"; sourceTree = "<group>"; };
+		56E2A3A72BFBD07C00D07139 /* UIColor+Allinson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Allinson.m"; sourceTree = "<group>"; };
+		56E2A3A92BFBD7EF00D07139 /* UIFont+Allinson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Allinson.h"; sourceTree = "<group>"; };
+		56E2A3AA2BFBD7EF00D07139 /* UIFont+Allinson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Allinson.m"; sourceTree = "<group>"; };
+		56E2A3AE2BFBE6E200D07139 /* README (Fonts).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README (Fonts).md"; sourceTree = "<group>"; };
+		56E2A3B02BFBE7B100D07139 /* README (Colors).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README (Colors).md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5695F7662BF67E5900BA3D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F77C2BF67E5B00BA3D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F7862BF67E5B00BA3D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5695F7602BF67E5900BA3D64 = {
+			isa = PBXGroup;
+			children = (
+				5695F76B2BF67E5900BA3D64 /* StyleGuide-iOS */,
+				5695F7822BF67E5B00BA3D64 /* StyleGuide-iOSTests */,
+				5695F78C2BF67E5B00BA3D64 /* StyleGuide-iOSUITests */,
+				5695F76A2BF67E5900BA3D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5695F76A2BF67E5900BA3D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5695F7692BF67E5900BA3D64 /* StyleGuide-iOS.app */,
+				5695F77F2BF67E5B00BA3D64 /* StyleGuide-iOSTests.xctest */,
+				5695F7892BF67E5B00BA3D64 /* StyleGuide-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5695F76B2BF67E5900BA3D64 /* StyleGuide-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A39F2BFAA84E00D07139 /* LaunchScreen.storyboard */,
+				5695F7722BF67E5900BA3D64 /* Main.storyboard */,
+				5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */,
+				5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */,
+				5695F7702BF67E5900BA3D64 /* ViewController.swift */,
+				56E2A3A22BFBC9C000D07139 /* StyleGuide-iOS-Bridging-Header.h */,
+				56E2A3A32BFBC9C000D07139 /* ObjcViewController.h */,
+				56E2A3A42BFBC9C000D07139 /* ObjcViewController.m */,
+				56E2A3692BFAA30700D07139 /* StyleGuide */,
+				5695F7752BF67E5B00BA3D64 /* Assets.xcassets */,
+				5695F77A2BF67E5B00BA3D64 /* Info.plist */,
+			);
+			path = "StyleGuide-iOS";
+			sourceTree = "<group>";
+		};
+		5695F7822BF67E5B00BA3D64 /* StyleGuide-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5695F7832BF67E5B00BA3D64 /* StyleGuide_iOSTests.swift */,
+			);
+			path = "StyleGuide-iOSTests";
+			sourceTree = "<group>";
+		};
+		5695F78C2BF67E5B00BA3D64 /* StyleGuide-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5695F78D2BF67E5B00BA3D64 /* StyleGuide_iOSUITests.swift */,
+				5695F78F2BF67E5B00BA3D64 /* StyleGuide_iOSUITestsLaunchTests.swift */,
+			);
+			path = "StyleGuide-iOSUITests";
+			sourceTree = "<group>";
+		};
+		56E2A3692BFAA30700D07139 /* StyleGuide */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A36A2BFAA34B00D07139 /* Colors */,
+				56E2A3962BFAA40A00D07139 /* Images */,
+				56E2A37D2BFAA40200D07139 /* Fonts */,
+			);
+			path = StyleGuide;
+			sourceTree = "<group>";
+		};
+		56E2A36A2BFAA34B00D07139 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A3B02BFBE7B100D07139 /* README (Colors).md */,
+				56E2A36B2BFAA36300D07139 /* Allinson-StyleGuide-Colors.xcassets */,
+				56E2A36D2BFAA36B00D07139 /* UIColor+Allinson.swift */,
+				56E2A3A62BFBD07C00D07139 /* UIColor+Allinson.h */,
+				56E2A3A72BFBD07C00D07139 /* UIColor+Allinson.m */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		56E2A37A2BFAA40200D07139 /* open-sans */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A36F2BFAA40200D07139 /* LICENSE.txt */,
+				56E2A3702BFAA40200D07139 /* OpenSans-Bold.ttf */,
+				56E2A3712BFAA40200D07139 /* OpenSans-BoldItalic.ttf */,
+				56E2A3722BFAA40200D07139 /* OpenSans-ExtraBold.ttf */,
+				56E2A3732BFAA40200D07139 /* OpenSans-ExtraBoldItalic.ttf */,
+				56E2A3742BFAA40200D07139 /* OpenSans-Italic.ttf */,
+				56E2A3752BFAA40200D07139 /* OpenSans-Light.ttf */,
+				56E2A3762BFAA40200D07139 /* OpenSans-LightItalic.ttf */,
+				56E2A3772BFAA40200D07139 /* OpenSans-Regular.ttf */,
+				56E2A3782BFAA40200D07139 /* OpenSans-Semibold.ttf */,
+				56E2A3792BFAA40200D07139 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "open-sans";
+			sourceTree = "<group>";
+		};
+		56E2A37D2BFAA40200D07139 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A3AE2BFBE6E200D07139 /* README (Fonts).md */,
+				56E2A37C2BFAA40200D07139 /* UIFont+Allinson.swift */,
+				56E2A3A92BFBD7EF00D07139 /* UIFont+Allinson.h */,
+				56E2A3AA2BFBD7EF00D07139 /* UIFont+Allinson.m */,
+				56E2A37A2BFAA40200D07139 /* open-sans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		56E2A3962BFAA40A00D07139 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				56E2A3952BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5695F7682BF67E5900BA3D64 /* StyleGuide-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5695F7932BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOS" */;
+			buildPhases = (
+				5695F7652BF67E5900BA3D64 /* Sources */,
+				5695F7662BF67E5900BA3D64 /* Frameworks */,
+				5695F7672BF67E5900BA3D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "StyleGuide-iOS";
+			productName = "StyleGuide-iOS";
+			productReference = 5695F7692BF67E5900BA3D64 /* StyleGuide-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5695F77E2BF67E5B00BA3D64 /* StyleGuide-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5695F7962BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOSTests" */;
+			buildPhases = (
+				5695F77B2BF67E5B00BA3D64 /* Sources */,
+				5695F77C2BF67E5B00BA3D64 /* Frameworks */,
+				5695F77D2BF67E5B00BA3D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5695F7812BF67E5B00BA3D64 /* PBXTargetDependency */,
+			);
+			name = "StyleGuide-iOSTests";
+			productName = "StyleGuide-iOSTests";
+			productReference = 5695F77F2BF67E5B00BA3D64 /* StyleGuide-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5695F7882BF67E5B00BA3D64 /* StyleGuide-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5695F7992BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOSUITests" */;
+			buildPhases = (
+				5695F7852BF67E5B00BA3D64 /* Sources */,
+				5695F7862BF67E5B00BA3D64 /* Frameworks */,
+				5695F7872BF67E5B00BA3D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5695F78B2BF67E5B00BA3D64 /* PBXTargetDependency */,
+			);
+			name = "StyleGuide-iOSUITests";
+			productName = "StyleGuide-iOSUITests";
+			productReference = 5695F7892BF67E5B00BA3D64 /* StyleGuide-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5695F7612BF67E5900BA3D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5695F7682BF67E5900BA3D64 = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+					5695F77E2BF67E5B00BA3D64 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5695F7682BF67E5900BA3D64;
+					};
+					5695F7882BF67E5B00BA3D64 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5695F7682BF67E5900BA3D64;
+					};
+				};
+			};
+			buildConfigurationList = 5695F7642BF67E5900BA3D64 /* Build configuration list for PBXProject "StyleGuide-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5695F7602BF67E5900BA3D64;
+			productRefGroup = 5695F76A2BF67E5900BA3D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5695F7682BF67E5900BA3D64 /* StyleGuide-iOS */,
+				5695F77E2BF67E5B00BA3D64 /* StyleGuide-iOSTests */,
+				5695F7882BF67E5B00BA3D64 /* StyleGuide-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5695F7672BF67E5900BA3D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5695F7762BF67E5B00BA3D64 /* Assets.xcassets in Resources */,
+				56E2A3882BFAA40200D07139 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				56E2A3822BFAA40200D07139 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				56E2A3B12BFBE7B100D07139 /* README (Colors).md in Resources */,
+				56E2A3852BFAA40200D07139 /* OpenSans-LightItalic.ttf in Resources */,
+				56E2A3832BFAA40200D07139 /* OpenSans-Italic.ttf in Resources */,
+				56E2A37F2BFAA40200D07139 /* OpenSans-Bold.ttf in Resources */,
+				56E2A3A12BFAA84E00D07139 /* LaunchScreen.storyboard in Resources */,
+				56E2A3AF2BFBE6E200D07139 /* README (Fonts).md in Resources */,
+				56E2A3812BFAA40200D07139 /* OpenSans-ExtraBold.ttf in Resources */,
+				56E2A39E2BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets in Resources */,
+				56E2A3802BFAA40200D07139 /* OpenSans-BoldItalic.ttf in Resources */,
+				56E2A36C2BFAA36300D07139 /* Allinson-StyleGuide-Colors.xcassets in Resources */,
+				56E2A37E2BFAA40200D07139 /* LICENSE.txt in Resources */,
+				56E2A3842BFAA40200D07139 /* OpenSans-Light.ttf in Resources */,
+				56E2A3862BFAA40200D07139 /* OpenSans-Regular.ttf in Resources */,
+				56E2A3872BFAA40200D07139 /* OpenSans-Semibold.ttf in Resources */,
+				5695F7742BF67E5900BA3D64 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F77D2BF67E5B00BA3D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F7872BF67E5B00BA3D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5695F7652BF67E5900BA3D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E2A3A52BFBC9C000D07139 /* ObjcViewController.m in Sources */,
+				5695F7712BF67E5900BA3D64 /* ViewController.swift in Sources */,
+				56E2A3A82BFBD07C00D07139 /* UIColor+Allinson.m in Sources */,
+				56E2A36E2BFAA36B00D07139 /* UIColor+Allinson.swift in Sources */,
+				56E2A3AB2BFBD7EF00D07139 /* UIFont+Allinson.m in Sources */,
+				5695F76D2BF67E5900BA3D64 /* AppDelegate.swift in Sources */,
+				5695F76F2BF67E5900BA3D64 /* SceneDelegate.swift in Sources */,
+				56E2A38A2BFAA40200D07139 /* UIFont+Allinson.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F77B2BF67E5B00BA3D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5695F7842BF67E5B00BA3D64 /* StyleGuide_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5695F7852BF67E5B00BA3D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5695F78E2BF67E5B00BA3D64 /* StyleGuide_iOSUITests.swift in Sources */,
+				5695F7902BF67E5B00BA3D64 /* StyleGuide_iOSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5695F7812BF67E5B00BA3D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5695F7682BF67E5900BA3D64 /* StyleGuide-iOS */;
+			targetProxy = 5695F7802BF67E5B00BA3D64 /* PBXContainerItemProxy */;
+		};
+		5695F78B2BF67E5B00BA3D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5695F7682BF67E5900BA3D64 /* StyleGuide-iOS */;
+			targetProxy = 5695F78A2BF67E5B00BA3D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5695F7722BF67E5900BA3D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5695F7732BF67E5900BA3D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56E2A39F2BFAA84E00D07139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56E2A3A02BFAA84E00D07139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5695F7912BF67E5B00BA3D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5695F7922BF67E5B00BA3D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5695F7942BF67E5B00BA3D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StyleGuide-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StyleGuide-iOS/StyleGuide-iOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5695F7952BF67E5B00BA3D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "StyleGuide-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StyleGuide-iOS/StyleGuide-iOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5695F7972BF67E5B00BA3D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleGuide-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StyleGuide-iOS";
+			};
+			name = Debug;
+		};
+		5695F7982BF67E5B00BA3D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StyleGuide-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StyleGuide-iOS";
+			};
+			name = Release;
+		};
+		5695F79A2BF67E5B00BA3D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StyleGuide-iOS";
+			};
+			name = Debug;
+		};
+		5695F79B2BF67E5B00BA3D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NL2F6STRPK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.allinson.StyleGuide-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "StyleGuide-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5695F7642BF67E5900BA3D64 /* Build configuration list for PBXProject "StyleGuide-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5695F7912BF67E5B00BA3D64 /* Debug */,
+				5695F7922BF67E5B00BA3D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5695F7932BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5695F7942BF67E5B00BA3D64 /* Debug */,
+				5695F7952BF67E5B00BA3D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5695F7962BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5695F7972BF67E5B00BA3D64 /* Debug */,
+				5695F7982BF67E5B00BA3D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5695F7992BF67E5B00BA3D64 /* Build configuration list for PBXNativeTarget "StyleGuide-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5695F79A2BF67E5B00BA3D64 /* Debug */,
+				5695F79B2BF67E5B00BA3D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5695F7612BF67E5900BA3D64 /* Project object */;
+}
