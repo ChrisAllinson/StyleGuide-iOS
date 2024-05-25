@@ -10,28 +10,58 @@
 @implementation UIFont (Allinson)
 
 + (UIFont *)Allinson_open_sans_small {
-    return [UIFont fontWithName:@"OpenSans" size:11.0];
+    UIFont *tempFont = [UIFont fontWithName:@"OpenSans" size:11.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:11.0];
+    } else {
+        return tempFont;
+    }
 }
 
 + (UIFont *)Allinson_open_sans_medium {
-    return [UIFont fontWithName:@"OpenSans" size:13.0];
+    UIFont *tempFont = [UIFont fontWithName:@"OpenSans" size:13.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:13.0];
+    } else {
+        return tempFont;
+    }
 }
 
 + (UIFont *)Allinson_open_sans_large {
-    return [UIFont fontWithName:@"OpenSans" size:15.0];
+    UIFont *tempFont = [UIFont fontWithName:@"OpenSans" size:15.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:15.0];
+    } else {
+        return tempFont;
+    }
 }
 
 + (UIFont *)Allinson_open_sans_extralarge {
-    return [UIFont fontWithName:@"OpenSans" size:17.0];
+    UIFont *tempFont = [UIFont fontWithName:@"OpenSans" size:17.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:17.0];
+    } else {
+        return tempFont;
+    }
 }
 
 
 + (UIFont *)Allinson_chalkduster_large {
-    return [UIFont fontWithName:@"Chalkduster" size:20.0];
+    UIFont *tempFont = [UIFont fontWithName:@"Chalkduster" size:20.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:20.0];
+    } else {
+        return tempFont;
+    }
 }
 
 + (UIFont *)Allinson_chalkduster_extralarge {
-    return [UIFont fontWithName:@"Chalkduster" size:40.0];
+    UIFont *tempFont = [UIFont fontWithName:@"Chalkduster" size:40.0];
+    if (tempFont == NULL) {
+        return [UIFont systemFontOfSize:40.0];
+    } else {
+        return tempFont;
+    }
 }
 
 @end
