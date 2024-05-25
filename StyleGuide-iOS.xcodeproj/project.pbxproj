@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		56767CCF2C0269BF00300D1B /* UIImage+Allinson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56767CCD2C0269BF00300D1B /* UIImage+Allinson.m */; };
 		56767CD12C0269D500300D1B /* UIImage+Allinson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56767CD02C0269D500300D1B /* UIImage+Allinson.swift */; };
+		56767CDB2C026FFD00300D1B /* README (Images).md in Resources */ = {isa = PBXBuildFile; fileRef = 56767CDA2C026FFD00300D1B /* README (Images).md */; };
 		5695F76D2BF67E5900BA3D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */; };
 		5695F76F2BF67E5900BA3D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */; };
 		5695F7712BF67E5900BA3D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F7702BF67E5900BA3D64 /* ViewController.swift */; };
@@ -61,6 +62,7 @@
 		56767CCD2C0269BF00300D1B /* UIImage+Allinson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Allinson.m"; sourceTree = "<group>"; };
 		56767CCE2C0269BF00300D1B /* UIImage+Allinson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Allinson.h"; sourceTree = "<group>"; };
 		56767CD02C0269D500300D1B /* UIImage+Allinson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Allinson.swift"; sourceTree = "<group>"; };
+		56767CDA2C026FFD00300D1B /* README (Images).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README (Images).md"; sourceTree = "<group>"; };
 		5695F7692BF67E5900BA3D64 /* StyleGuide-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StyleGuide-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 		56E2A3962BFAA40A00D07139 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				56767CDA2C026FFD00300D1B /* README (Images).md */,
 				56E2A3952BFAA40A00D07139 /* Allinson-StyleGuide-Images.xcassets */,
 				56767CD02C0269D500300D1B /* UIImage+Allinson.swift */,
 				56767CCE2C0269BF00300D1B /* UIImage+Allinson.h */,
@@ -365,6 +368,7 @@
 				56E2A3842BFAA40200D07139 /* OpenSans-Light.ttf in Resources */,
 				56E2A3862BFAA40200D07139 /* OpenSans-Regular.ttf in Resources */,
 				56E2A3872BFAA40200D07139 /* OpenSans-Semibold.ttf in Resources */,
+				56767CDB2C026FFD00300D1B /* README (Images).md in Resources */,
 				5695F7742BF67E5900BA3D64 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
