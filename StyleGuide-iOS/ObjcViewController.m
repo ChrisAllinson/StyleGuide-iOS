@@ -8,6 +8,7 @@
 #import "ObjcViewController.h"
 #import "UIColor+Allinson.h"
 #import "UIFont+Allinson.h"
+#import "UIImage+Allinson.h"
 
 @interface ObjcViewController ()
 
@@ -22,6 +23,8 @@
     [_chalkdusterExample setFont:[UIFont Allinson_chalkduster_large]];
     
     [_colorExample setTextColor:[UIColor Allinson_red]];
+    
+    [_imageExample setImage:[UIImage AllinsonStyleGuideImage:@"Allinson_logo"]];
 }
 
 @end

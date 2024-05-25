@@ -92,6 +92,14 @@
                                     <constraint firstAttribute="height" constant="33" id="heu-Ft-6l8"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="72p-lD-57y">
+                                <rect key="frame" x="47.333333333333343" y="535" width="298.66666666666663" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Open Brainstorm App (URLScheme)"/>
+                                <connections>
+                                    <action selector="openBrainstormAppButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nro-9t-dMN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="Allinson_body_brown"/>
@@ -107,6 +115,7 @@
                             <constraint firstItem="VP5-T5-gqJ" firstAttribute="top" secondItem="HKe-mn-w0K" secondAttribute="bottom" constant="44" id="9nR-p8-e8t"/>
                             <constraint firstItem="T6E-73-5Ip" firstAttribute="top" secondItem="Rzr-xo-yfE" secondAttribute="bottom" constant="22" id="Aez-3j-CN4"/>
                             <constraint firstItem="E1R-bD-THB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DC4-Vo-ORy"/>
+                            <constraint firstItem="72p-lD-57y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Etk-zm-rhc"/>
                             <constraint firstItem="Fk3-qd-bqL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Fd7-in-R0F"/>
                             <constraint firstItem="T6E-73-5Ip" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="OXL-jZ-jbK"/>
                             <constraint firstItem="VP5-T5-gqJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W0o-zy-yAS"/>
@@ -116,6 +125,7 @@
                             <constraint firstItem="BAB-50-nFU" firstAttribute="top" secondItem="W6K-0X-gTW" secondAttribute="bottom" constant="16" id="b5c-p8-Beq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W6K-0X-gTW" secondAttribute="trailing" constant="16" id="d8z-dR-PKA"/>
                             <constraint firstItem="W6K-0X-gTW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dkF-pE-1bZ"/>
+                            <constraint firstItem="HKe-mn-w0K" firstAttribute="top" secondItem="72p-lD-57y" secondAttribute="bottom" constant="16" id="fLT-M3-ABi"/>
                             <constraint firstItem="W6K-0X-gTW" firstAttribute="top" secondItem="Fk3-qd-bqL" secondAttribute="bottom" constant="16" id="hSf-tn-OzM"/>
                             <constraint firstItem="HKe-mn-w0K" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hxt-jl-68Y"/>
                             <constraint firstItem="Rzr-xo-yfE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lKd-g9-WMY"/>
@@ -164,10 +174,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Allinson_logo" translatesAutoresizingMaskIntoConstraints="NO" id="55M-AE-INs">
+                                <rect key="frame" x="16" y="194.33333333333334" width="237" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="237" id="6ih-K7-Zc2"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="Bds-Vh-GdH"/>
+                                    <constraint firstAttribute="height" constant="33" id="CgM-KK-pnU"/>
+                                    <constraint firstAttribute="width" constant="237" id="F71-xd-QRl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="237" id="Hrs-2V-CCy"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="33" id="uax-LO-vvo"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="K23-r4-9p0"/>
                         <color key="backgroundColor" name="Allinson_body_brown"/>
                         <constraints>
+                            <constraint firstItem="55M-AE-INs" firstAttribute="top" secondItem="ccZ-H1-LkJ" secondAttribute="bottom" constant="22" id="Atp-eV-VGK"/>
                             <constraint firstItem="mYj-ea-bP9" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="IYv-CI-mhG"/>
                             <constraint firstItem="J8D-JD-gkX" firstAttribute="top" secondItem="K23-r4-9p0" secondAttribute="top" constant="44" id="JsJ-Jp-E2K"/>
                             <constraint firstItem="mYj-ea-bP9" firstAttribute="top" secondItem="J8D-JD-gkX" secondAttribute="bottom" constant="22" id="MeQ-RU-WHW"/>
@@ -177,6 +199,7 @@
                             <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="mYj-ea-bP9" secondAttribute="trailing" constant="16" id="Vwq-qd-KoB"/>
                             <constraint firstItem="J8D-JD-gkX" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="YQv-Ry-s5D"/>
                             <constraint firstItem="ccZ-H1-LkJ" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="q8e-lo-6gp"/>
+                            <constraint firstItem="55M-AE-INs" firstAttribute="leading" secondItem="K23-r4-9p0" secondAttribute="leading" constant="16" id="trE-cC-fMj"/>
                             <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="ccZ-H1-LkJ" secondAttribute="trailing" constant="16" id="wKT-He-knA"/>
                             <constraint firstItem="K23-r4-9p0" firstAttribute="trailing" secondItem="J8D-JD-gkX" secondAttribute="trailing" constant="16" id="ywx-VI-mR4"/>
                         </constraints>
@@ -184,6 +207,7 @@
                     <connections>
                         <outlet property="chalkdusterExample" destination="mYj-ea-bP9" id="tL0-KW-Q7u"/>
                         <outlet property="colorExample" destination="ccZ-H1-LkJ" id="X7F-Lk-sxs"/>
+                        <outlet property="imageExample" destination="55M-AE-INs" id="dWv-8x-3vM"/>
                         <outlet property="openSansExample" destination="J8D-JD-gkX" id="Omk-jj-i9N"/>
                     </connections>
                 </viewController>
