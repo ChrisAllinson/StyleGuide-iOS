@@ -14,6 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) IBOutlet UILabel *openSansExample;
 @property (nonatomic, strong) IBOutlet UILabel *chalkdusterExample;
 @property (nonatomic, strong) IBOutlet UILabel *colorExample;
+@property (nonatomic, strong) IBOutlet UIImageView *imageExample;
 
 @end
 

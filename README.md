@@ -1,7 +1,7 @@
 
 # Allinson-StyleGuide
 
-#### v0.9.0
+#### v0.9.1
 
 Colors, fonts and images used across the Allinson.ca suite of applications
 
@@ -38,7 +38,7 @@ Colors, fonts and images used across the Allinson.ca suite of applications
 
 [CocoaPods](http://cocoapods.org)
 
-`pod 'Allinson-StyleGuide', '0.9.0'`
+`pod 'Allinson-StyleGuide', '0.9.1'`
 
 ### Carthage
 
@@ -54,7 +54,7 @@ Colors, fonts and images used across the Allinson.ca suite of applications
 
 ### Manually
 
-Import the following files into your project: [StyleGuide-iOS @ GitHub](https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.0/StyleGuide-iOS/StyleGuide).
+Import the following files into your project: [StyleGuide-iOS @ GitHub](https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.1/StyleGuide-iOS/StyleGuide).
 
 
 ## Docs
@@ -64,7 +64,7 @@ Import the following files into your project: [StyleGuide-iOS @ GitHub](https://
 
 ## Source Code
 
-[GitHub](https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.0/StyleGuide-iOS/StyleGuide)
+[GitHub](https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.1/StyleGuide-iOS/StyleGuide)
 
 
 ## Credits
