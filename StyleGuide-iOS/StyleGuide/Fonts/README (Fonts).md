@@ -1,17 +1,19 @@
 
+# FONTS
+
+
+The following fonts are included in this style guide:
+**OpenSans**
+
 Add the **Fonts provided by application** key to your app's **Info.plist** file.
 
 List the fonts used by your app ...
-**OpenSans-Bold.ttf**
-**OpenSans-BoldItalic.ttf**
-**OpenSans-ExtraBold.ttf**
-**OpenSans-ExtraBoldItalic.ttf**
-**OpenSans-Italic.ttf**
-**OpenSans-Light.ttf**
-**OpenSans-LightItalic.ttf**
 **OpenSans-Regular.ttf**
-**OpenSans-Semibold.ttf**
-**OpenSans-SemiboldItalic.ttf**
+
+In `AppDelegate`'s `didFinishLaunchingWithOptions` method, call `loadFonts` in Swift using ...
+`AllinsonStyleGuide.loadFonts()`
+or in Objective-C using ...
+`[AllinsonStyleGuide loadFonts];`
 
 Set fonts programatically in Swift using ...
 **UIFont.Allinson.open_sans_small**
