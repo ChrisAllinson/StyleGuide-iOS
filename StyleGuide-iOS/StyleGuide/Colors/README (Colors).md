@@ -16,6 +16,10 @@ Select colors in Interface Builder via the **Named Colors** section of an elemen
 **Allinson_footer_green**
 **Allinson_footer_green__darkened**
 
+There seems to be an issue with dark mode support using an Interface Builder solution alone.
+
+For now, simply setting all colors programatically will work.
+
 Set colors programatically in Swift using ...
 **UIColor.Allinson.header_brown**
 **UIColor.Allinson.body_brown**
