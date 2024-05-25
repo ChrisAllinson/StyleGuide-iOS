@@ -15,7 +15,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(42.0/255.0) green:(35.0/255.0) blue:(22.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -24,7 +28,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(222.0/255.0) green:(210.0/255.0) blue:(158.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(50.0/255.0) green:(43.0/255.0) blue:(30.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(222.0/255.0) green:(210.0/255.0) blue:(158.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -34,7 +42,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(104.0/255.0) green:(86.0/255.0) blue:(66.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(104.0/255.0) green:(86.0/255.0) blue:(66.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -43,7 +55,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(104.0/255.0) green:(86.0/255.0) blue:(66.0/255.0) alpha:0.3];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:0.3];
+        } else {
+            return [[UIColor alloc] initWithRed:(104.0/255.0) green:(86.0/255.0) blue:(66.0/255.0) alpha:0.3];
+        }
     }
 }
 
@@ -53,7 +69,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(50.0/255.0) green:(43.0/255.0) blue:(30.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(50.0/255.0) green:(43.0/255.0) blue:(30.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -62,7 +82,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(50.0/255.0) green:(43.0/255.0) blue:(30.0/255.0) alpha:0.3];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(214.0/255.0) green:(202.0/255.0) blue:(149.0/255.0) alpha:0.3];
+        } else {
+            return [[UIColor alloc] initWithRed:(50.0/255.0) green:(43.0/255.0) blue:(30.0/255.0) alpha:0.3];
+        }
     }
 }
 
@@ -72,7 +96,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(204.0/255.0) green:(102.0/255.0) blue:(0.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(255.0/255.0) green:(172.0/255.0) blue:(58.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(204.0/255.0) green:(102.0/255.0) blue:(0.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -82,7 +110,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(0.0/255.0) green:(0.0/255.0) blue:(255.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(115.0/255.0) green:(215.0/255.0) blue:(255.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(0.0/255.0) green:(0.0/255.0) blue:(255.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -92,7 +124,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(153.0/255.0) green:(41.0/255.0) blue:(41.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(255.0/255.0) green:(41.0/255.0) blue:(41.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(153.0/255.0) green:(41.0/255.0) blue:(41.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -101,7 +137,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(122.0/255.0) green:(33.0/255.0) blue:(33.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(247.0/255.0) green:(33.0/255.0) blue:(33.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(122.0/255.0) green:(33.0/255.0) blue:(33.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -111,7 +151,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(183.0/255.0) green:(198.0/255.0) blue:(139.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(72.0/255.0) green:(78.0/255.0) blue:(55.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(183.0/255.0) green:(198.0/255.0) blue:(139.0/255.0) alpha:1.0];
+        }
     }
 }
 
@@ -120,7 +164,11 @@
     if (c) {
         return c;
     } else {
-        return [[UIColor alloc] initWithRed:(146.0/255.0) green:(158.0/255.0) blue:(111.0/255.0) alpha:1.0];
+        if ([[[UIScreen mainScreen] traitCollection] userInterfaceStyle] == UIUserInterfaceStyleDark) {
+            return [[UIColor alloc] initWithRed:(64.0/255.0) green:(70.0/255.0) blue:(47.0/255.0) alpha:1.0];
+        } else {
+            return [[UIColor alloc] initWithRed:(146.0/255.0) green:(158.0/255.0) blue:(111.0/255.0) alpha:1.0];
+        }
     }
 }
 
