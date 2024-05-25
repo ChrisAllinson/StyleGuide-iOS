@@ -10,6 +10,7 @@
 		56767CCF2C0269BF00300D1B /* UIImage+Allinson.m in Sources */ = {isa = PBXBuildFile; fileRef = 56767CCD2C0269BF00300D1B /* UIImage+Allinson.m */; };
 		56767CD12C0269D500300D1B /* UIImage+Allinson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56767CD02C0269D500300D1B /* UIImage+Allinson.swift */; };
 		56767CDB2C026FFD00300D1B /* README (Images).md in Resources */ = {isa = PBXBuildFile; fileRef = 56767CDA2C026FFD00300D1B /* README (Images).md */; };
+		56767CDD2C02895000300D1B /* AllinsonStyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56767CDC2C02895000300D1B /* AllinsonStyleGuide.swift */; };
 		5695F76D2BF67E5900BA3D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */; };
 		5695F76F2BF67E5900BA3D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */; };
 		5695F7712BF67E5900BA3D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5695F7702BF67E5900BA3D64 /* ViewController.swift */; };
@@ -63,6 +64,7 @@
 		56767CCE2C0269BF00300D1B /* UIImage+Allinson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Allinson.h"; sourceTree = "<group>"; };
 		56767CD02C0269D500300D1B /* UIImage+Allinson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Allinson.swift"; sourceTree = "<group>"; };
 		56767CDA2C026FFD00300D1B /* README (Images).md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README (Images).md"; sourceTree = "<group>"; };
+		56767CDC2C02895000300D1B /* AllinsonStyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllinsonStyleGuide.swift; sourceTree = "<group>"; };
 		5695F7692BF67E5900BA3D64 /* StyleGuide-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StyleGuide-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5695F76C2BF67E5900BA3D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5695F76E2BF67E5900BA3D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		56E2A3692BFAA30700D07139 /* StyleGuide */ = {
 			isa = PBXGroup;
 			children = (
+				56767CDC2C02895000300D1B /* AllinsonStyleGuide.swift */,
 				56E2A36A2BFAA34B00D07139 /* Colors */,
 				56E2A3962BFAA40A00D07139 /* Images */,
 				56E2A37D2BFAA40200D07139 /* Fonts */,
@@ -401,6 +404,7 @@
 				56E2A3AB2BFBD7EF00D07139 /* UIFont+Allinson.m in Sources */,
 				56767CD12C0269D500300D1B /* UIImage+Allinson.swift in Sources */,
 				56767CCF2C0269BF00300D1B /* UIImage+Allinson.m in Sources */,
+				56767CDD2C02895000300D1B /* AllinsonStyleGuide.swift in Sources */,
 				5695F76D2BF67E5900BA3D64 /* AppDelegate.swift in Sources */,
 				5695F76F2BF67E5900BA3D64 /* SceneDelegate.swift in Sources */,
 				56E2A38A2BFAA40200D07139 /* UIFont+Allinson.swift in Sources */,
