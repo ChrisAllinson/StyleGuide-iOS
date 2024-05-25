@@ -1,4 +1,7 @@
 
+# IMAGES
+
+
 The following images are included in this style guide:
 **Allinson_logo**
 **Allinson_header_shadow**
