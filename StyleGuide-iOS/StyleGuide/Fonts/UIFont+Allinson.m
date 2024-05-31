@@ -9,6 +9,8 @@
 
 @implementation UIFont (Allinson)
 
+// MARK: public methods
+
 + (UIFont *)Allinson_open_sans_small {
     UIFont *tempFont = [UIFont fontWithName:@"OpenSans" size:11.0];
     if (tempFont == NULL) {
@@ -44,7 +46,6 @@
         return tempFont;
     }
 }
-
 
 + (UIFont *)Allinson_chalkduster_large {
     UIFont *tempFont = [UIFont fontWithName:@"Chalkduster" size:20.0];

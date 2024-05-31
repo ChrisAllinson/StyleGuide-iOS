@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var openSansLabel: UILabel!
     @IBOutlet var chalkdusterLabel: UILabel!
+    @IBOutlet var logoImage: UIImageView!
     
     
 
@@ -28,6 +29,22 @@ class ViewController: UIViewController {
         
         chalkdusterLabel?.font = UIFont.Allinson.chalkduster_large
         chalkdusterLabel?.textColor = UIColor.Allinson.red
+        
+        logoImage?.image = UIImage.AllinsonStyleGuideImage(named: "Allinson_logo")
+        logoImage?.image = UIImage.Allinson.logo
+    }
+    
+    
+    
+    // MARK: UI Events
+    
+    @IBAction func openBrainstormAppButtonPressed() {
+        let url = URL(string: "brainstorm:newidea?idea=My great new idea")!
+        UIApplication.shared.open(url) { (result) in
+            if result {
+               // The URL was delivered successfully!
+            }
+        }
     }
     
     

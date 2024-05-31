@@ -12,7 +12,7 @@ public extension UIColor {
     
     struct Allinson {
         
-        // Allinson.ca colors
+        // MARK: browns
         
         public static var header_brown: UIColor {
             guard let tempColor = UIColor(named: "Allinson_header_brown") else {
@@ -24,6 +24,7 @@ public extension UIColor {
             }
             return tempColor
         }
+        
         public static var body_brown: UIColor {
             guard let tempColor = UIColor(named: "Allinson_body_brown") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -45,6 +46,7 @@ public extension UIColor {
             }
             return tempColor
         }
+        
         public static var crushed_brown__disabled: UIColor {
             guard let tempColor = UIColor(named: "Allinson_crushed_brown__disabled") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -66,6 +68,7 @@ public extension UIColor {
             }
             return tempColor
         }
+        
         public static var copy_brown__disabled: UIColor {
             guard let tempColor = UIColor(named: "Allinson_copy_brown__disabled") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -76,6 +79,8 @@ public extension UIColor {
             }
             return tempColor
         }
+        
+        // MARK: oranges
         
         public static var orange: UIColor {
             guard let tempColor = UIColor(named: "Allinson_orange") else {
@@ -88,6 +93,8 @@ public extension UIColor {
             return tempColor
         }
         
+        // MARK: blues
+        
         public static var link_blue: UIColor {
             guard let tempColor = UIColor(named: "Allinson_link_blue") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -99,6 +106,8 @@ public extension UIColor {
             return tempColor
         }
         
+        // MARK: reds
+        
         public static var red: UIColor {
             guard let tempColor = UIColor(named: "Allinson_red") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -109,6 +118,7 @@ public extension UIColor {
             }
             return tempColor
         }
+        
         public static var red__darkened: UIColor {
             guard let tempColor = UIColor(named: "Allinson_red__darkened") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -120,6 +130,8 @@ public extension UIColor {
             return tempColor
         }
         
+        // MARK: greens
+        
         public static var footer_green: UIColor {
             guard let tempColor = UIColor(named: "Allinson_footer_green") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {
@@ -130,6 +142,7 @@ public extension UIColor {
             }
             return tempColor
         }
+        
         public static var footer_green__darkened: UIColor {
             guard let tempColor = UIColor(named: "Allinson_footer_green__darkened") else {
                 if UIScreen.main.traitCollection.userInterfaceStyle == .dark {

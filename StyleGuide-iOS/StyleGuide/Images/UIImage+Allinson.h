@@ -11,7 +11,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (Allinson)
 
-+ (UIImage *)AllinsonStyleGuideImage:(NSString *)named;
++ (UIImage *)Allinson_logo;
++ (UIImage *)Allinson_header_shadow;
+
+// deprecated
++ (UIImage *)AllinsonStyleGuideImage:(NSString *)named __attribute((deprecated("Please use [UIImage Allinson_logo] or [UIImage Allinson_header_shadow] instead. This will be removed in a future release.")));
 
 @end
 
