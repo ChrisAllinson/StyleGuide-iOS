@@ -15,7 +15,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (UIFont *)Allinson_open_sans_medium;
 + (UIFont *)Allinson_open_sans_large;
 + (UIFont *)Allinson_open_sans_extralarge;
-
 + (UIFont *)Allinson_chalkduster_large;
 + (UIFont *)Allinson_chalkduster_extralarge;
 

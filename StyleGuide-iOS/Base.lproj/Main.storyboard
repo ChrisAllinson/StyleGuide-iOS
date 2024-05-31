@@ -141,6 +141,7 @@
                     <navigationItem key="navigationItem" title="Navigation Item Title" id="lxO-LU-Wt9"/>
                     <connections>
                         <outlet property="chalkdusterLabel" destination="T6E-73-5Ip" id="j5A-Z9-JEf"/>
+                        <outlet property="logoImage" destination="wDC-5R-g4x" id="YQo-R1-CCE"/>
                         <outlet property="openSansLabel" destination="Rzr-xo-yfE" id="d64-H8-P4d"/>
                     </connections>
                 </viewController>

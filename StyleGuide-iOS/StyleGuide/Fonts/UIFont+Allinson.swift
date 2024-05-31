@@ -12,7 +12,7 @@ public extension UIFont {
     
     struct Allinson {
         
-        // Allinson.ca fonts
+        // MARK: fonts
         
         public static var open_sans_small: UIFont = UIFont(name: "OpenSans", size: 11.0) ?? UIFont.systemFont(ofSize: 11.0)
         public static var open_sans_medium: UIFont = UIFont(name: "OpenSans", size: 13.0) ?? UIFont.systemFont(ofSize: 13.0)

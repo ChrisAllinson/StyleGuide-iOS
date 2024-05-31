@@ -13,10 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (UIColor *)Allinson_header_brown;
 + (UIColor *)Allinson_body_brown;
-
 + (UIColor *)Allinson_crushed_brown;
 + (UIColor *)Allinson_crushed_brown__disabled;
-
 + (UIColor *)Allinson_copy_brown;
 + (UIColor *)Allinson_copy_brown__disabled;
 

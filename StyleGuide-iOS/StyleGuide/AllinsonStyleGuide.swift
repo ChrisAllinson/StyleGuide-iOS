@@ -10,7 +10,7 @@ import UIKit
 @objc
 public class AllinsonStyleGuide: NSObject {
     
-    // public methods
+    // MARK: public methods
     
     @objc
     public static func loadFonts() {
