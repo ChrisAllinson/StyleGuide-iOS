@@ -9,6 +9,28 @@
 
 @implementation UIImage (Allinson)
 
+// MARK: public methods
+
++ (UIImage *)Allinson_logo {
+    return [UIImage image:@"Allinson_logo"];
+}
+
++ (UIImage *)Allinson_header_shadow {
+    return [UIImage image:@"Allinson_header_shadow"];
+}
+
+// MARK: private methods
+
++ (UIImage *)image:(NSString *)named {
+    UIImage *tempImage = [UIImage imageNamed:named];
+    if (tempImage == NULL) {
+        return [UIImage imageNamed:named inBundle:[NSBundle self] withConfiguration:NULL];
+    }
+    return tempImage;
+}
+
+// MARK: deprecated methods
+
 + (UIImage *)AllinsonStyleGuideImage:(NSString *)named {
     UIImage *tempImage = [UIImage imageNamed:named];
     if (tempImage == NULL) {

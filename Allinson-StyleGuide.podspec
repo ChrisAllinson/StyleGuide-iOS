@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name        = "Allinson-StyleGuide"
-  s.version     = "0.9.3"
+  s.version     = "0.9.4"
   s.summary     = "Colors, fonts and images used across the Allinson.ca suite of applications"
-  s.homepage    = "https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.3"
+  s.homepage    = "https://github.com/ChrisAllinson/StyleGuide-iOS/tree/0.9.4"
   s.license     = { :type => "MIT", :file => "LICENSE.txt" }
   s.authors     = { "ChrisAllinson" => "allinson.ca@hotmail.com" }
 

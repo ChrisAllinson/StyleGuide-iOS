@@ -10,6 +10,8 @@
 
 @implementation UIColor (Allinson)
 
+// MARK: browns
+
 + (UIColor *)Allinson_header_brown {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonHeaderBrown];
     if (c) {
@@ -35,7 +37,6 @@
         }
     }
 }
-
 
 + (UIColor *)Allinson_crushed_brown {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonCrushedBrown];
@@ -63,7 +64,6 @@
     }
 }
 
-
 + (UIColor *)Allinson_copy_brown {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonCopyBrown];
     if (c) {
@@ -90,6 +90,7 @@
     }
 }
 
+// MARK: oranges
 
 + (UIColor *)Allinson_orange {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonOrange];
@@ -104,6 +105,7 @@
     }
 }
 
+// MARK: blues
 
 + (UIColor *)Allinson_link_blue {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonLinkBlue];
@@ -118,6 +120,7 @@
     }
 }
 
+// MARK: reds
 
 + (UIColor *)Allinson_red {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonRed];
@@ -145,6 +148,7 @@
     }
 }
 
+// MARK: greens
 
 + (UIColor *)Allinson_footer_green {
     UIColor *c = [UIColor colorNamed:ACColorNameAllinsonFooterGreen];

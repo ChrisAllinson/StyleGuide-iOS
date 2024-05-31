@@ -25,6 +25,7 @@
     [_colorExample setTextColor:[UIColor Allinson_red]];
     
     [_imageExample setImage:[UIImage AllinsonStyleGuideImage:@"Allinson_logo"]];
+    [_imageExample setImage:[UIImage Allinson_logo]];
 }
 
 @end
