@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.ios.deployment_target = "13.0"
-  s.watchos.deployment_target = "4.0"
+  s.watchos.deployment_target = "6.0"
   s.swift_version = "5.0"
   s.source   = { :git => "https://github.com/ChrisAllinson/StyleGuide-iOS.git", :branch => "master", :tag => s.version }
   s.source_files = "LICENSE.txt", "README.md", "StyleGuide-iOS/StyleGuide/**/*.{h,m,swift,plist}"
