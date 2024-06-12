@@ -21,7 +21,11 @@ public extension UIImage {
         private static func image(named: String) -> UIImage? {
             let image = UIImage(named: named)
             if image == nil {
-                return UIImage(named: named, in: Bundle(for: AllinsonStyleGuide.self), with: nil)
+                if #available(iOS 13.0, *) {
+                    return UIImage(named: named, in: Bundle(for: AllinsonStyleGuide.self), with: nil)
+                } else {
+                    return UIImage(named: named, in: Bundle(for: AllinsonStyleGuide.self), compatibleWith: nil)
+                }
             }
             return image
         }
@@ -36,7 +40,11 @@ public extension UIImage {
     class func AllinsonStyleGuideImage(named: String) -> UIImage? {
         let image = UIImage(named: named)
         if image == nil {
-            return UIImage(named: named, in: Bundle(for: self), with: nil)
+            if #available(iOS 13.0, *) {
+                return UIImage(named: named, in: Bundle(for: self), with: nil)
+            } else {
+                return UIImage(named: named, in: Bundle(for: self), compatibleWith: nil)
+            }
         }
         return image
     }
