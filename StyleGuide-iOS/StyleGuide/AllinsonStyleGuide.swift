@@ -22,20 +22,4 @@ public class AllinsonStyleGuide: NSObject {
         }
         CTFontManagerRegisterGraphicsFont(font, nil)
     }
-    
-    @objc
-    public static func styleNavigationBar(vc: UIViewController) {
-        if #available(iOS 13.0, *) {
-            let appearance = UINavigationBarAppearance()
-            appearance.configureWithOpaqueBackground()
-            appearance.backgroundColor = UIColor.Allinson.header_brown
-            appearance.titleTextAttributes = [.foregroundColor: UIColor.Allinson.copy_brown, .font: UIFont.Allinson.chalkduster_large]
-            vc.navigationItem.standardAppearance = appearance
-            vc.navigationItem.scrollEdgeAppearance = appearance
-            vc.navigationItem.compactAppearance = appearance
-        } else {
-            vc.navigationController?.navigationBar.barTintColor = UIColor.Allinson.header_brown
-            vc.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.Allinson.copy_brown, .font: UIFont.Allinson.chalkduster_large]
-        }
-    }
 }
