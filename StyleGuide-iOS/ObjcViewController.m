@@ -6,7 +6,6 @@
 //
 
 #import "ObjcViewController.h"
-#import "StyleGuide_iOS-Swift.h"
 #import "UIColor+Allinson.h"
 #import "UIFont+Allinson.h"
 #import "UIImage+Allinson.h"
@@ -19,8 +18,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [AllinsonStyleGuide styleNavigationBarWithVc:self];
     
     [_openSansExample setFont:[UIFont Allinson_open_sans_large]];
     [_chalkdusterExample setFont:[UIFont Allinson_chalkduster_large]];
