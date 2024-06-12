@@ -24,11 +24,7 @@
 + (UIImage *)image:(NSString *)named {
     UIImage *tempImage = [UIImage imageNamed:named];
     if (tempImage == NULL) {
-        if (@available(iOS 13.0, *)) {
-            return [UIImage imageNamed:named inBundle:[NSBundle self] withConfiguration:NULL];
-        } else {
-            return [UIImage imageNamed:named inBundle:[NSBundle self] compatibleWithTraitCollection:NULL];
-        }
+        return [UIImage imageNamed:named inBundle:[NSBundle self] withConfiguration:NULL];
     }
     return tempImage;
 }
@@ -38,11 +34,7 @@
 + (UIImage *)AllinsonStyleGuideImage:(NSString *)named {
     UIImage *tempImage = [UIImage imageNamed:named];
     if (tempImage == NULL) {
-        if (@available(iOS 13.0, *)) {
-            return [UIImage imageNamed:named inBundle:[NSBundle self] withConfiguration:NULL];
-        } else {
-            return [UIImage imageNamed:named inBundle:[NSBundle self] compatibleWithTraitCollection:NULL];
-        }
+        return [UIImage imageNamed:named inBundle:[NSBundle self] withConfiguration:NULL];
     }
     return tempImage;
 }
