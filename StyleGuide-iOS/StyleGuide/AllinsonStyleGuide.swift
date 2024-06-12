@@ -23,6 +23,7 @@ public class AllinsonStyleGuide: NSObject {
         CTFontManagerRegisterGraphicsFont(font, nil)
     }
     
+    #if os(iOS)
     @objc
     public static func styleNavigationBar(vc: UIViewController) {
         if #available(iOS 13.0, *) {
@@ -37,5 +38,7 @@ public class AllinsonStyleGuide: NSObject {
             vc.navigationController?.navigationBar.barTintColor = UIColor.Allinson.header_brown
             vc.navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.Allinson.copy_brown, .font: UIFont.Allinson.chalkduster_large]
         }
+        
     }
+    #endif
 }
